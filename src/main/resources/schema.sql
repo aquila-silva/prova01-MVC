@@ -11,5 +11,4 @@ CREATE TABLE animal (
     idade INT,
     tutor_id_tutor INT,
     FOREIGN KEY (tutor_id_tutor) REFERENCES tutor(id_tutor)
-    dasd
 );
